@@ -9,7 +9,7 @@ The purpose of this app is to explore the used of Share Preferences to store sma
 ### SharedPreferences
 SharedPreferences is Android's version of UserDefaults (iOS). It is not designed for handling large pieces of data as writing and reading to this object are expensive operations that could slow down the app. SharedPreferences uses key:value storage. One of the noticable differences between SharedPreferences and UserDefaults is the use of a default value when retrieve data from SharePrefernces. 
 
-#####Putting and Getting a String
+##### Putting and Getting a String
 ```
     SharedPreferences sharedPreferences;
 
@@ -23,7 +23,7 @@ SharedPreferences is Android's version of UserDefaults (iOS). It is not designed
 ```
 
 
-#####Putting and Getting an ArrayList
+##### Putting and Getting an ArrayList
 ```
     private void saveAndLoadList() {
         //Create a list
